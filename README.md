@@ -18,6 +18,15 @@ This project aims to predict flight ticket prices based on various input feature
 - NumPy
 - Matplotlib / Seaborn
 
+## Project Structure
+
+- `main.ipynb`: Contains the complete model training and prediction logic using Scikit-learn and TensorFlow.
+- `README.md`: This file.
+- `economy.csv`: Raw data of the economy class.  
+- `business.csv`: Raw data of the business class. 
+- `Clean_Dataset.csv`: Processed data of both the economy and business classes. 
+- `top_10_routes_data.csv`: Extracted data for top 10 routes, for model building.
+ 
 ## Features
 
 - Handles categorical and numerical features
